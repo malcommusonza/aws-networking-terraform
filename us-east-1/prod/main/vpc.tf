@@ -1,6 +1,6 @@
 resource "aws_eip" "nat" {
   count = length(var.availability_zones)
-  vpc = true
+  domain = "vpc"  # Use "vpc" for VPC-bound EIPs instead of the deprecated "vpc = true"
 }
 
 module "vpc" {

@@ -1,5 +1,5 @@
 variable "key_name" {
-  default = "csmithaws"
+  default = "myec2gnSSHkp"
   type = string
 }
 
