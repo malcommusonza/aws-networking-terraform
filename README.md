@@ -1,6 +1,7 @@
 # aws-networking-terraform
-## Deployment does require a specific order
+## Deployment requires a specific order
 ## perform terraform init/plan/apply in these directories
+
 ## Required:
 #### global
 #### global/prod/main
